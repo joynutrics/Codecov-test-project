@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA011A922547817A00FFF6BB /* Codecov_test_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011A912547817A00FFF6BB /* Codecov_test_projectApp.swift */; };
+		FA011A942547817A00FFF6BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011A932547817A00FFF6BB /* ContentView.swift */; };
+		FA011A962547817B00FFF6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA011A952547817B00FFF6BB /* Assets.xcassets */; };
+		FA011A992547817B00FFF6BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA011A982547817B00FFF6BB /* Preview Assets.xcassets */; };
+		FA011AA42547817B00FFF6BB /* Codecov_test_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011AA32547817B00FFF6BB /* Codecov_test_projectTests.swift */; };
+		FA011AAF2547817B00FFF6BB /* Codecov_test_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011AAE2547817B00FFF6BB /* Codecov_test_projectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA011AA02547817B00FFF6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA011A862547817A00FFF6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA011A8D2547817A00FFF6BB;
+			remoteInfo = "Codecov-test-project";
+		};
+		FA011AAB2547817B00FFF6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA011A862547817A00FFF6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA011A8D2547817A00FFF6BB;
+			remoteInfo = "Codecov-test-project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA011A8E2547817A00FFF6BB /* Codecov-test-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codecov-test-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA011A912547817A00FFF6BB /* Codecov_test_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codecov_test_projectApp.swift; sourceTree = "<group>"; };
+		FA011A932547817A00FFF6BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA011A952547817B00FFF6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA011A982547817B00FFF6BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA011A9A2547817B00FFF6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA011A9F2547817B00FFF6BB /* Codecov-test-projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codecov-test-projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA011AA32547817B00FFF6BB /* Codecov_test_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codecov_test_projectTests.swift; sourceTree = "<group>"; };
+		FA011AA52547817B00FFF6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA011AAA2547817B00FFF6BB /* Codecov-test-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codecov-test-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA011AAE2547817B00FFF6BB /* Codecov_test_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codecov_test_projectUITests.swift; sourceTree = "<group>"; };
+		FA011AB02547817B00FFF6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA011A8B2547817A00FFF6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA011A9C2547817B00FFF6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA011AA72547817B00FFF6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA011A852547817A00FFF6BB = {
+			isa = PBXGroup;
+			children = (
+				FA011A902547817A00FFF6BB /* Codecov-test-project */,
+				FA011AA22547817B00FFF6BB /* Codecov-test-projectTests */,
+				FA011AAD2547817B00FFF6BB /* Codecov-test-projectUITests */,
+				FA011A8F2547817A00FFF6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA011A8F2547817A00FFF6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA011A8E2547817A00FFF6BB /* Codecov-test-project.app */,
+				FA011A9F2547817B00FFF6BB /* Codecov-test-projectTests.xctest */,
+				FA011AAA2547817B00FFF6BB /* Codecov-test-projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA011A902547817A00FFF6BB /* Codecov-test-project */ = {
+			isa = PBXGroup;
+			children = (
+				FA011A912547817A00FFF6BB /* Codecov_test_projectApp.swift */,
+				FA011A932547817A00FFF6BB /* ContentView.swift */,
+				FA011A952547817B00FFF6BB /* Assets.xcassets */,
+				FA011A9A2547817B00FFF6BB /* Info.plist */,
+				FA011A972547817B00FFF6BB /* Preview Content */,
+			);
+			path = "Codecov-test-project";
+			sourceTree = "<group>";
+		};
+		FA011A972547817B00FFF6BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA011A982547817B00FFF6BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA011AA22547817B00FFF6BB /* Codecov-test-projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA011AA32547817B00FFF6BB /* Codecov_test_projectTests.swift */,
+				FA011AA52547817B00FFF6BB /* Info.plist */,
+			);
+			path = "Codecov-test-projectTests";
+			sourceTree = "<group>";
+		};
+		FA011AAD2547817B00FFF6BB /* Codecov-test-projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA011AAE2547817B00FFF6BB /* Codecov_test_projectUITests.swift */,
+				FA011AB02547817B00FFF6BB /* Info.plist */,
+			);
+			path = "Codecov-test-projectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA011A8D2547817A00FFF6BB /* Codecov-test-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA011AB32547817B00FFF6BB /* Build configuration list for PBXNativeTarget "Codecov-test-project" */;
+			buildPhases = (
+				FA011A8A2547817A00FFF6BB /* Sources */,
+				FA011A8B2547817A00FFF6BB /* Frameworks */,
+				FA011A8C2547817A00FFF6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Codecov-test-project";
+			productName = "Codecov-test-project";
+			productReference = FA011A8E2547817A00FFF6BB /* Codecov-test-project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA011A9E2547817B00FFF6BB /* Codecov-test-projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA011AB62547817B00FFF6BB /* Build configuration list for PBXNativeTarget "Codecov-test-projectTests" */;
+			buildPhases = (
+				FA011A9B2547817B00FFF6BB /* Sources */,
+				FA011A9C2547817B00FFF6BB /* Frameworks */,
+				FA011A9D2547817B00FFF6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA011AA12547817B00FFF6BB /* PBXTargetDependency */,
+			);
+			name = "Codecov-test-projectTests";
+			productName = "Codecov-test-projectTests";
+			productReference = FA011A9F2547817B00FFF6BB /* Codecov-test-projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA011AA92547817B00FFF6BB /* Codecov-test-projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA011AB92547817B00FFF6BB /* Build configuration list for PBXNativeTarget "Codecov-test-projectUITests" */;
+			buildPhases = (
+				FA011AA62547817B00FFF6BB /* Sources */,
+				FA011AA72547817B00FFF6BB /* Frameworks */,
+				FA011AA82547817B00FFF6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA011AAC2547817B00FFF6BB /* PBXTargetDependency */,
+			);
+			name = "Codecov-test-projectUITests";
+			productName = "Codecov-test-projectUITests";
+			productReference = FA011AAA2547817B00FFF6BB /* Codecov-test-projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA011A862547817A00FFF6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FA011A8D2547817A00FFF6BB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FA011A9E2547817B00FFF6BB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FA011A8D2547817A00FFF6BB;
+					};
+					FA011AA92547817B00FFF6BB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FA011A8D2547817A00FFF6BB;
+					};
+				};
+			};
+			buildConfigurationList = FA011A892547817A00FFF6BB /* Build configuration list for PBXProject "Codecov-test-project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA011A852547817A00FFF6BB;
+			productRefGroup = FA011A8F2547817A00FFF6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA011A8D2547817A00FFF6BB /* Codecov-test-project */,
+				FA011A9E2547817B00FFF6BB /* Codecov-test-projectTests */,
+				FA011AA92547817B00FFF6BB /* Codecov-test-projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA011A8C2547817A00FFF6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA011A992547817B00FFF6BB /* Preview Assets.xcassets in Resources */,
+				FA011A962547817B00FFF6BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA011A9D2547817B00FFF6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA011AA82547817B00FFF6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA011A8A2547817A00FFF6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA011A942547817A00FFF6BB /* ContentView.swift in Sources */,
+				FA011A922547817A00FFF6BB /* Codecov_test_projectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA011A9B2547817B00FFF6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA011AA42547817B00FFF6BB /* Codecov_test_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA011AA62547817B00FFF6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA011AAF2547817B00FFF6BB /* Codecov_test_projectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA011AA12547817B00FFF6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA011A8D2547817A00FFF6BB /* Codecov-test-project */;
+			targetProxy = FA011AA02547817B00FFF6BB /* PBXContainerItemProxy */;
+		};
+		FA011AAC2547817B00FFF6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA011A8D2547817A00FFF6BB /* Codecov-test-project */;
+			targetProxy = FA011AAB2547817B00FFF6BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA011AB12547817B00FFF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA011AB22547817B00FFF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA011AB42547817B00FFF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Codecov-test-project/Preview Content\"";
+				DEVELOPMENT_TEAM = DD7799W2ZG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Codecov-test-project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joynutrics.Codecov-test-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA011AB52547817B00FFF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Codecov-test-project/Preview Content\"";
+				DEVELOPMENT_TEAM = DD7799W2ZG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Codecov-test-project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joynutrics.Codecov-test-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA011AB72547817B00FFF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD7799W2ZG;
+				INFOPLIST_FILE = "Codecov-test-projectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joynutrics.Codecov-test-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codecov-test-project.app/Codecov-test-project";
+			};
+			name = Debug;
+		};
+		FA011AB82547817B00FFF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD7799W2ZG;
+				INFOPLIST_FILE = "Codecov-test-projectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joynutrics.Codecov-test-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codecov-test-project.app/Codecov-test-project";
+			};
+			name = Release;
+		};
+		FA011ABA2547817B00FFF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD7799W2ZG;
+				INFOPLIST_FILE = "Codecov-test-projectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joynutrics.Codecov-test-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Codecov-test-project";
+			};
+			name = Debug;
+		};
+		FA011ABB2547817B00FFF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD7799W2ZG;
+				INFOPLIST_FILE = "Codecov-test-projectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joynutrics.Codecov-test-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Codecov-test-project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA011A892547817A00FFF6BB /* Build configuration list for PBXProject "Codecov-test-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA011AB12547817B00FFF6BB /* Debug */,
+				FA011AB22547817B00FFF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA011AB32547817B00FFF6BB /* Build configuration list for PBXNativeTarget "Codecov-test-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA011AB42547817B00FFF6BB /* Debug */,
+				FA011AB52547817B00FFF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA011AB62547817B00FFF6BB /* Build configuration list for PBXNativeTarget "Codecov-test-projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA011AB72547817B00FFF6BB /* Debug */,
+				FA011AB82547817B00FFF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA011AB92547817B00FFF6BB /* Build configuration list for PBXNativeTarget "Codecov-test-projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA011ABA2547817B00FFF6BB /* Debug */,
+				FA011ABB2547817B00FFF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA011A862547817A00FFF6BB /* Project object */;
+}
