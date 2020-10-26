@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class ContentViewModel: ObservableObject {
+    @Published var title = ""
+
+    func loadTitle() {
+        title = "Codecov"
+    }
+}

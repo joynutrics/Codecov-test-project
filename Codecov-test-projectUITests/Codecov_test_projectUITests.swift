@@ -26,7 +26,17 @@ class Codecov_test_projectUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
+        
+        let textLabel = app.staticTexts.element
+        XCTAssert(textLabel.exists)
+        XCTAssertEqual(textLabel.label, "Hello, world!")
+        
+        let button = app.buttons.element
+        XCTAssert(button.exists)
+        XCTAssertEqual(button.label, "Click Me!")
+        
+        button.tap()
+        XCTAssertEqual(textLabel.label, "Hello, Codecov!")
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
