@@ -22,7 +22,7 @@ class Codecov_test_projectUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testClickMeButton() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
@@ -31,14 +31,29 @@ class Codecov_test_projectUITests: XCTestCase {
         XCTAssert(textLabel.exists)
         XCTAssertEqual(textLabel.label, "Hello, world!")
         
-        let button = app.buttons.element
+        let button = app.buttons["Click Me!"]
         XCTAssert(button.exists)
         XCTAssertEqual(button.label, "Click Me!")
         
         button.tap()
         XCTAssertEqual(textLabel.label, "Hello, Codecov!")
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testClickMeTooButton() throws {
+        // UI tests must launch the application that they test.
+        let app = XCUIApplication()
+        app.launch()
+        
+        let textLabel = app.staticTexts.element
+        XCTAssert(textLabel.exists)
+        XCTAssertEqual(textLabel.label, "Hello, world!")
+        
+        let button = app.buttons["Click Me, too!"]
+        XCTAssert(button.exists)
+        XCTAssertEqual(button.label, "Click Me, too!")
+        
+        button.tap()
+        XCTAssertEqual(textLabel.label, "Hello, Codecov2!")
     }
 
     func testLaunchPerformance() throws {
