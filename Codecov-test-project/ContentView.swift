@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var contentVM = ContentViewModel()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, \(contentVM.title.isEmpty ? "world" : contentVM.title)!")
+            Button("Click Me!") {
+                contentVM.loadTitle()
+            }
+        }
+        .padding()
     }
 }
 

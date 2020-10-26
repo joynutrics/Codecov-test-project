@@ -13,6 +13,7 @@
 		FA011A992547817B00FFF6BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA011A982547817B00FFF6BB /* Preview Assets.xcassets */; };
 		FA011AA42547817B00FFF6BB /* Codecov_test_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011AA32547817B00FFF6BB /* Codecov_test_projectTests.swift */; };
 		FA011AAF2547817B00FFF6BB /* Codecov_test_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011AAE2547817B00FFF6BB /* Codecov_test_projectUITests.swift */; };
+		FA011AC02547819500FFF6BB /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011ABF2547819500FFF6BB /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FA011AAA2547817B00FFF6BB /* Codecov-test-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codecov-test-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA011AAE2547817B00FFF6BB /* Codecov_test_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codecov_test_projectUITests.swift; sourceTree = "<group>"; };
 		FA011AB02547817B00FFF6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA011ABF2547819500FFF6BB /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				FA011A952547817B00FFF6BB /* Assets.xcassets */,
 				FA011A9A2547817B00FFF6BB /* Info.plist */,
 				FA011A972547817B00FFF6BB /* Preview Content */,
+				FA011ABF2547819500FFF6BB /* ContentViewModel.swift */,
 			);
 			path = "Codecov-test-project";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				FA011A942547817A00FFF6BB /* ContentView.swift in Sources */,
 				FA011A922547817A00FFF6BB /* Codecov_test_projectApp.swift in Sources */,
+				FA011AC02547819500FFF6BB /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
