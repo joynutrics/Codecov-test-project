@@ -18,12 +18,18 @@ class Codecov_test_projectTests: XCTestCase {
     }
 
     func testLoadTitle() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
         let viewModel = ContentViewModel()
         XCTAssertEqual(viewModel.title, "")
 
         viewModel.loadTitle()
         XCTAssertEqual(viewModel.title, "Codecov")
+    }
+
+    func testChangeTitle() throws {
+        let viewModel = ContentViewModel()
+        XCTAssertEqual(viewModel.title, "")
+
+        viewModel.changeTitle()
+        XCTAssertEqual(viewModel.title, "Codecov2")
     }
 }

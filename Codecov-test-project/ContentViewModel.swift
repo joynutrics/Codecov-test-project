@@ -13,4 +13,8 @@ class ContentViewModel: ObservableObject {
     func loadTitle() {
         title = "Codecov"
     }
+    
+    func changeTitle() {
+        title = "Codecov2"
+    }
 }

@@ -16,6 +16,12 @@ struct ContentView: View {
             Button("Click Me!") {
                 contentVM.loadTitle()
             }
+            .accessibilityIdentifier("Click Me!")
+
+            Button("Click Me, too!") {
+                contentVM.changeTitle()
+            }
+            .accessibilityIdentifier("Click Me, too!")
         }
         .padding()
     }
